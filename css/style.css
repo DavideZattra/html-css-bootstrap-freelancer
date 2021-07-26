@@ -1,5 +1,14 @@
-.bg-teal500{
+.ms_bg-teal500{
     background-color: rgb(53, 184, 155);
+}
+
+.ms_bg-blue{
+    background-color: rgb(26, 75, 75);
+}
+
+.row{
+    padding: 5px;
+    height: fit-content;
 }
 
 .row.bg-teal500{
@@ -9,4 +18,10 @@
 .jumbotron-image{
     display: block;
     margin: 20px auto;
+}
+
+[class^="col"]{
+    border: 1px solid red;
+    height: 250px;
+    
 }
