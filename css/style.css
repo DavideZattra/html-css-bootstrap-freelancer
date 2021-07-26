@@ -1,0 +1,12 @@
+.bg-teal500{
+    background-color: rgb(53, 184, 155);
+}
+
+.row.bg-teal500{
+    height:400px;
+}
+
+.jumbotron-image{
+    display: block;
+    margin: 20px auto;
+}
