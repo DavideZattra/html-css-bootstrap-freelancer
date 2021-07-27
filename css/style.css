@@ -1,5 +1,5 @@
 .fullpage-wrapper{
-    background-color: skyblue;
+    background-color: rgba(26,188,156,255);
 }
 
 .filler-box{
@@ -14,8 +14,46 @@
     text-align: center;
 }
 
+/* NAV STYLE */
+#nav-section{
+    background-color: rgba(44,62,80,255);
+}
+
+/* JUMBOTRON STYLE */
+#jumbotron img{
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+}
+
 /* PORTFOLIO STYLE */
 #portfolio img{
     width: 100%;
     border-radius: 15px;
+}
+
+/* FOOTER STYLE */
+#upper-footer{
+    background-color: rgba(58,84,109,255);
+}
+
+#upper-footer i{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 39px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+#upper-footer a{
+    text-decoration: none;
+    color: rgba(28,181,153,255);
+}
+
+#lower-footer{
+    background-color: rgba(44,62,80,255)
+;
 }
